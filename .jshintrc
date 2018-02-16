@@ -1,0 +1,12 @@
+{
+  "esversion": 6,
+  "-W033": false,
+  "undef": true,
+  "unused": true,
+  "globals": {
+    "MY_GLOBAL": true,
+    "React": true,
+    "ReactDOM": true,
+    "d3": true
+  }
+}
