@@ -5,6 +5,12 @@ module.exports = {
         "es6": true
     },
     "extends": "eslint:recommended",
+    "globals": {
+        "angular": true,
+        "React": true,
+        "ReactDom": true,
+        "d3": true
+    },
     "rules": {
         "indent": [
             "error",
