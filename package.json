@@ -1,15 +1,14 @@
 {
-  "name": "fcc",
+  "name": "fcc_common",
   "version": "1.0.0",
-  "description": "global modules for the free code camp",
-  "main": ".eslintrc.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "srb",
-  "license": "ISC",
+  "description": "FreeCodeCamp common modules",
+  "main": "index.js",
   "dependencies": {
-    "@types/d3": "4.8.0",
+    "d3": "^4.12.2",
+    "immediate": "^3.2.3"
+  },
+  "devDependencies": {
+    "ajv": "^5.5.1",
     "babel-core": "^6.26.0",
     "babelify": "^8.0.0",
     "browserify": "^14.5.0",
@@ -23,12 +22,36 @@
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
+    "babelify": "^8.0.0",
     "browser-sync": "^2.18.13",
     "del": "^3.0.0",
-    "eslint": "^4.17.0",
-    "eslint-plugin-react": "^7.6.1",
-    "gulp-babel": "^7.0.1",
+    "eslint": "^4.12.1",
+    "eslint-cli": "^1.1.1",
+    "eslint-plugin-react": "^7.5.1",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.0",
+    "gulp-browserify": "^0.5.1",
+    "gulp-concat": "^2.6.1",
     "gulp-sass": "^3.1.0",
-    "gulp-sourcemaps": "^2.6.4"
-  }
+    "gulp-sequence": "^0.4.6",
+    "gulp-series": "^1.0.2",
+    "gulp-sourcemaps": "^2.6.1",
+    "gulp-svg-sprites": "^4.1.2",
+    "htmlhint": "^0.9.13",
+    "jshint": "^2.9.5",
+    "jslint": "^0.11.0",
+    "minimatch": "^3.0.4",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "run-sequence": "^2.2.0",
+    "sequence": "^3.0.0",
+    "tslint": "^5.8.0",
+    "typescript": "^2.6.2",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "srb",
+  "license": "ISC"
 }
