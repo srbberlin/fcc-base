@@ -9,7 +9,9 @@ module.exports = {
         "angular": true,
         "React": true,
         "ReactDom": true,
-        "d3": true
+        "d3": true,
+        "console.log": true,
+        "__dirname": true
     },
     "rules": {
         "indent": [
